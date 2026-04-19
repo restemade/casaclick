@@ -2,377 +2,395 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Casa Interiors</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="format-detection" content="telephone=no, date=no, email=no, address=no" />
+  <title>Casa Interiors — Дизайн интерьера и реализация под ключ</title>
   <meta
-          name="description"
-          content="Casa Interiors — дизайн-проект, авторский надзор, ремонт под ключ, мебель и декоративное освещение."
+    name="description"
+    content="Casa Interiors — студия интерьерного дизайна: концепция, дизайн-проект, авторский надзор и реализация под ключ для жилых и коммерческих пространств."
   />
+  <meta name="theme-color" content="#0c111b" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:title" content="Casa Interiors — Дизайн интерьера и реализация" />
+  <meta
+    property="og:description"
+    content="Эстетичные и функциональные интерьеры с полным сопровождением: от концепции до реализации."
+  />
+  <meta property="og:image" content="images/casa-brand-banner.png" />
+  <meta property="og:image:alt" content="Casa Interiors" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Casa Interiors — Дизайн интерьера и реализация" />
+  <meta
+    name="twitter:description"
+    content="Проектирование, авторский надзор и комплектация интерьеров с прогнозируемым результатом."
+  />
+  <meta name="twitter:image" content="images/casa-brand-banner.png" />
+
+  <link rel="icon" type="image/png" href="images/casa-monogram.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
   />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<header class="site-header">
-  <div class="container header-inner">
-    <a href="#top" class="brand brand-banner">
-      <img
-              src="images/casa-brand-banner1.png"
-              alt="Casa Interiors — Дизайн интерьера • Реализация • Авторский надзор"
-              class="brand-banner-image"
-      />
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand brand-banner" aria-label="Casa Interiors — на главную">
+        <img
+          src="images/casa-brand-banner1.png"
+          alt="Casa Interiors — Дизайн интерьера • Реализация • Авторский надзор"
+          class="brand-banner-image"
+          loading="eager"
+          fetchpriority="high"
+        />
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Открыть меню"
+        aria-expanded="false"
+        aria-controls="siteNav"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="siteNav" aria-label="Основная навигация">
+        <a href="#about">О студии</a>
+        <a href="#services">Услуги</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#documents">Документы</a>
+        <a href="#media">Материалы</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Casa Interiors</span>
+          <h1>Интерьеры, в которых эстетика, логика и комфорт работают вместе.</h1>
+          <p class="hero-text">
+            Проектируем и реализуем жилые и коммерческие пространства: от концепции и рабочей документации до авторского
+            сопровождения и финальной комплектации.
+          </p>
+          <p class="hero-note">Спокойный процесс, точные решения, предсказуемый результат.</p>
+
+          <ul class="hero-points" aria-label="Преимущества">
+            <li>8 лет практики и более 100 реализованных проектов</li>
+            <li>Авторский надзор и прозрачная коммуникация по срокам</li>
+            <li>Комплектация мебелью и декоративным освещением</li>
+          </ul>
+
+          <div class="hero-actions">
+            <a
+              class="btn btn-primary"
+              href="https://wa.me/77015134441?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%0A%D0%A2%D0%B8%D0%BF%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0%3A%20%0A%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C%3A%20%0A%D0%93%D0%BE%D1%80%D0%BE%D0%B4%3A%20"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Написать в WhatsApp
+            </a>
+            <a class="btn btn-secondary" href="#portfolio">Смотреть портфолио</a>
+          </div>
+        </div>
+
+        <aside class="hero-visual reveal" aria-label="Основатель студии">
+          <article class="portrait-card">
+            <div class="portrait-badge">Основатель студии</div>
+            <div class="portrait-image-wrap">
+              <img
+                src="images/founder.png"
+                alt="Мырзагали Гульшетай — основатель Casa Interiors"
+                class="portrait-image"
+                loading="eager"
+                fetchpriority="high"
+              />
+            </div>
+            <div class="portrait-info">
+              <h2>Мырзагали Гульшетай</h2>
+              <p>Ведёт проекты в современном, вневременном стиле: с уважением к архитектуре пространства и образу жизни клиента.</p>
+            </div>
+          </article>
+        </aside>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">О студии</span>
+          <h2>Создаём спокойные, выразительные и практичные пространства.</h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-card reveal">
+            <h3>Жилые интерьеры</h3>
+            <p>Квартиры, дома и апартаменты с выверенной планировкой, где эстетика поддерживает ежедневный комфорт.</p>
+          </article>
+
+          <article class="about-card reveal">
+            <h3>Коммерческие объекты</h3>
+            <p>Пространства, которые работают на бренд и создают правильное впечатление с первого посещения.</p>
+          </article>
+
+          <article class="about-card reveal">
+            <h3>Комплексная реализация</h3>
+            <p>От концепции и документации до подбора материалов, мебели, света и сопровождения реализации.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Услуги</span>
+          <h2>Форматы работы и стоимость</h2>
+        </div>
+
+        <div class="services-grid services-grid-priced">
+          <article class="service-card reveal">
+            <h3>Дизайн-проект</h3>
+            <p>Концепция, планировки, визуализации и полный комплект рабочей документации.</p>
+            <div class="service-price">7 000 ₸ / м²</div>
+          </article>
+
+          <article class="service-card reveal">
+            <h3>Классический пакет</h3>
+            <p>Расширенный формат проектирования с более глубокой проработкой деталей и узлов.</p>
+            <div class="service-price">8 000 ₸ / м²</div>
+          </article>
+
+          <article class="service-card reveal">
+            <h3>Авторский надзор</h3>
+            <p>Регулярный контроль реализации и точное внедрение проектных решений на объекте.</p>
+            <div class="service-price">По пакету</div>
+          </article>
+
+          <article class="service-card reveal">
+            <h3>Ремонт под ключ</h3>
+            <p>Комплексная реализация объекта с координацией подрядчиков, сроков и качества работ.</p>
+            <div class="service-price">от 40 000 ₸ / м²</div>
+          </article>
+
+          <article class="service-card reveal">
+            <h3>Мебель и комплектация</h3>
+            <p>Подбор мебели и предметов интерьера под концепцию, бюджет и характер пространства.</p>
+            <div class="service-price">По запросу</div>
+          </article>
+
+          <article class="service-card reveal">
+            <h3>Декоративное освещение</h3>
+            <p>Световые сценарии и декоративные акценты, усиливающие архитектуру и атмосферу интерьера.</p>
+            <div class="service-price">По запросу</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Портфолио</span>
+          <h2>Избранные проекты студии</h2>
+        </div>
+
+        <div class="portfolio-slider reveal">
+          <button class="slider-btn slider-btn-prev" type="button" aria-label="Предыдущий проект">‹</button>
+
+          <div class="portfolio-track" id="portfolioTrack" aria-label="Слайдер проектов">
+            <article class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="images/projects/central-park.jpg" alt="Проект квартиры Central Park" loading="lazy" />
+              </div>
+              <div class="portfolio-info">
+                <h3>Central Park</h3>
+                <p>Квартира 168 м² · Premium · Полный дизайн-проект</p>
+                <p>Актау</p>
+              </div>
+            </article>
+
+            <article class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="images/projects/ab-residence.jpg" alt="Проект квартиры AB-Residence" loading="lazy" />
+              </div>
+              <div class="portfolio-info">
+                <h3>AB-Residence</h3>
+                <p>Квартира 130 м² · Комплектация · Авторский надзор</p>
+                <p>Усть-Каменогорск</p>
+              </div>
+            </article>
+
+            <article class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="images/projects/maison-4a.jpg" alt="Проект Maison 4a" loading="lazy" />
+              </div>
+              <div class="portfolio-info">
+                <h3>Maison 4a</h3>
+                <p>Коттедж 350 м² · Soft minimal · Концепция и реализация</p>
+                <p>Частный объект</p>
+              </div>
+            </article>
+          </div>
+
+          <button class="slider-btn slider-btn-next" type="button" aria-label="Следующий проект">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="documents section" id="documents">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Документы</span>
+          <h2>Открытость и формальный порядок работы</h2>
+        </div>
+
+        <div class="documents-grid">
+          <article class="document-card reveal">
+            <h3>Диплом</h3>
+            <p>Документ об образовании по специальности «Дизайн».</p>
+            <a class="btn btn-secondary btn-full" href="920723400396-20260318155936782.pdf" target="_blank" rel="noopener noreferrer">
+              Открыть диплом
+            </a>
+          </article>
+
+          <article class="document-card reveal">
+            <h3>Публичная оферта / договор</h3>
+            <p>Условия разработки дизайн-проекта интерьера и авторского сопровождения.</p>
+            <a class="btn btn-secondary btn-full" href="public-offer-author-supervision.docx" target="_blank" rel="noopener noreferrer">
+              Открыть документ
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="media section" id="media">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Материалы</span>
+          <h2>Полезные ссылки</h2>
+        </div>
+
+        <div class="media-grid">
+          <article class="media-card reveal">
+            <h3>Ознакомительное видео</h3>
+            <p>Короткое видео о подходе студии и процессе работы (ссылка будет добавлена).</p>
+            <a class="btn btn-secondary btn-full" href="#contact">Запросить в WhatsApp</a>
+          </article>
+
+          <article class="media-card reveal">
+            <h3>Расширенное портфолио</h3>
+            <p>Подборка дополнительных проектов доступна по запросу в Instagram или WhatsApp.</p>
+            <a
+              class="btn btn-secondary btn-full"
+              href="https://www.instagram.com/gulek_myrzagali/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Открыть Instagram
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2>Частые вопросы перед стартом</h2>
+        </div>
+
+        <div class="faq-box reveal">
+          <details>
+            <summary>Что входит в дизайн-проект?</summary>
+            <p>Концепция, планировочные решения, визуализация и рабочая документация для реализации.</p>
+          </details>
+
+          <details>
+            <summary>Сколько занимает работа над проектом?</summary>
+            <p>Срок зависит от площади и сложности. Точный график формируется после обсуждения задачи.</p>
+          </details>
+
+          <details>
+            <summary>Можно ли заказать только авторский надзор?</summary>
+            <p>Да, можно подключиться на этапе реализации отдельно или в комплексе с дизайн-проектом.</p>
+          </details>
+
+          <details>
+            <summary>Работаете ли вы с удалёнными объектами?</summary>
+            <p>Да, формат сотрудничества адаптируется под город, логистику и этапы проекта.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-copy">
+            <span class="eyebrow">Контакты</span>
+            <h2>Обсудим ваш интерьерный проект.</h2>
+            <p>Напишите в удобный канал — ответим по срокам, бюджету и оптимальному формату работы.</p>
+          </div>
+
+          <div class="contact-actions">
+            <a
+              class="btn btn-primary btn-full"
+              href="https://wa.me/77015134441?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20Casa%20Interiors.%0A%D0%A2%D0%B8%D0%BF%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0%3A%20%0A%D0%93%D0%BE%D1%80%D0%BE%D0%B4%3A%20"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp · +7 701 513 4441
+            </a>
+            <a
+              class="btn btn-secondary btn-full"
+              href="https://www.instagram.com/gulek_myrzagali/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram студии
+            </a>
+          </div>
+          <p class="contact-meta">Обычно отвечаем в течение рабочего дня.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="mobile-sticky-cta" aria-label="Быстрые действия">
+    <a
+      class="btn btn-primary"
+      href="https://wa.me/77015134441?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20Casa%20Interiors."
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      WhatsApp
     </a>
-
-    <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-
-    <nav class="nav-links">
-      <a href="#about">О нас</a>
-      <a href="#services">Услуги</a>
-      <a href="#pricing">Прайс</a>
-      <a href="#documents">Документы</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contact">Контакты</a>
-    </nav>
+    <a class="btn btn-secondary" href="https://www.instagram.com/gulek_myrzagali/" target="_blank" rel="noopener noreferrer">Instagram</a>
   </div>
-</header>
 
-<main id="top">
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="hero-copy reveal">
-        <span class="eyebrow">Casa Interiors</span>
-        <h2>ДИЗАЙН-ПРОЕКТ И РЕАЛИЗАЦИЯ
-          ПОД ПОЛНЫМ КОНТРОЛЕМ
-          С ПРЕДСКАЗУЕМЫМ РЕЗУЛЬТАТОМ</h2>
-        <p class="hero-text">
-          Проектируем и реализуем жилые и коммерческие пространства с полным контролем каждого этапа: от концепции и планировочных решений до разработки дизайн-проекта, авторского надзора и реализации под ключ. Работаем с материалами, мебелью и освещением, обеспечивая точное соответствие проекта, бюджета и конечного результата без компромиссов по качеству.
-        </p>
-
-        <div class="hero-stats">
-          <div class="stat-card">
-            <strong>8 лет</strong>
-            <span>опыта</span>
-          </div>
-          <div class="stat-card">
-            <strong>100+</strong>
-            <span>завершённых проектов</span>
-          </div>
-          <div class="stat-card">
-            <strong>от идеи</strong>
-            <span>до реализации</span>
-          </div>
-        </div>
-
-        <div class="hero-actions">
-          <a class="btn btn-primary"
-             href="https://wa.me/77015134441?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B7%D0%B0%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BE%D0%B2%D0%B0%D0%BB%20%D0%B2%D0%B0%D1%88%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0.%20%D0%A5%D0%BE%D1%82%D0%B5%D0%BB%20%D0%B1%D1%8B%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%0A%0A%D0%A2%D0%B8%D0%BF%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0%3A%20%0A%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C%3A%20%0A%D0%93%D0%BE%D1%80%D0%BE%D0%B4%3A%20%0A%D0%A1%D1%80%D0%BE%D0%BA%D0%B8%3A%20"
-             target="_blank" rel="noopener noreferrer">
-            Оставить заявку
-          </a>
-          <a class="btn btn-secondary" href="#portfolio">Смотреть работы</a>
-        </div>
-      </div>
-
-      <div class="hero-visual reveal">
-        <div class="portrait-card">
-          <div class="portrait-badge">Основатель студии</div>
-          <div class="portrait-image-wrap">
-            <img src="images/founder.png" alt="Основатель Casa Interiors" class="portrait-image" />
-          </div>
-          <div class="portrait-info">
-            <h2>Мырзагали Гульшетай</h2>
-            <p>8 лет опыта, более 100 завершённых проектов.</p>
-          </div>
-        </div>
-      </div>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="currentYear"></span> Casa Interiors. Все права защищены.</p>
     </div>
-  </section>
+  </footer>
 
-  <section class="about section" id="about">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">О студии</span>
-        <h2>Создаём пространства с характером, логикой и аккуратной реализацией</h2>
-      </div>
-
-      <div class="about-grid">
-        <article class="about-card reveal">
-          <h3>Жилые интерьеры</h3>
-          <p>
-            Квартиры, дома, апартаменты — с продуманной планировкой, цельной концепцией
-            и вниманием к образу жизни клиента.
-          </p>
-        </article>
-
-        <article class="about-card reveal">
-          <h3>Коммерческие объекты</h3>
-          <p>
-            Пространства, которые должны не только выглядеть сильно, но и работать на бренд,
-            удобство и впечатление гостей.
-          </p>
-        </article>
-
-        <article class="about-card reveal">
-          <h3>Комплексный подход</h3>
-          <p>
-            От концепции и визуализации до сопровождения, подбора мебели, декоративного света
-            и координации реализации.
-          </p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="services section" id="services">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">Услуги</span>
-        <h2>Форматы работы и стоимость</h2>
-      </div>
-
-      <div class="services-grid services-grid-priced">
-        <article class="service-card reveal">
-          <h3>Дизайн-проект</h3>
-          <p>Концепция, планировки, визуализация и рабочая документация.</p>
-          <div class="service-price">7 000 ₸ / м²</div>
-        </article>
-
-        <article class="service-card reveal">
-          <h3>Классический пакет</h3>
-          <p>Расширенный формат проектирования с более глубокой проработкой решений.</p>
-          <div class="service-price">8 000 ₸ / м²</div>
-        </article>
-
-        <article class="service-card reveal">
-          <h3>Авторский надзор</h3>
-          <p>Сопровождение реализации, контроль решений и координация по проекту.</p>
-          <div class="service-price">По пакету</div>
-        </article>
-
-        <article class="service-card reveal">
-          <h3>Ремонт под ключ</h3>
-          <p>Реализация объекта с учётом сложности, сроков и уровня проекта.</p>
-          <div class="service-price">от 40 000 ₸ / м²</div>
-        </article>
-
-        <article class="service-card reveal">
-          <h3>Мебель и комплектация</h3>
-          <p>Подбор мебели, решения из Китая, наличие отдельных позиций.</p>
-          <div class="service-price">По запросу</div>
-        </article>
-
-        <article class="service-card reveal">
-          <h3>Декоративное освещение</h3>
-          <p>Люстры, акцентный свет и подбор решений под интерьер.</p>
-          <div class="service-price">По запросу</div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="portfolio section" id="portfolio">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">Портфолио</span>
-        <h2>Выполненные и подготовленные проекты</h2>
-      </div>
-
-      <div class="portfolio-slider reveal">
-        <button class="slider-btn slider-btn-prev" type="button" aria-label="Назад">‹</button>
-
-        <div class="portfolio-track" id="portfolioTrack">
-          <article class="portfolio-card">
-            <div class="portfolio-image">
-              <img src="images/projects/central-park.jpg" alt="CENTRAL PARK" />
-            </div>
-            <div class="portfolio-info">
-              <h3>Central Park</h3>
-              <h3>Квартира 168 м²</h3>
-              <p>Premium / Полный дизайн-проект</p>
-              <p>40 м-н, Актау</p>
-            </div>
-          </article>
-
-          <article class="portfolio-card">
-            <div class="portfolio-image">
-              <img src="images/projects/ab-residence.jpg" alt="ЖК AB-Residence" />
-            </div>
-            <div class="portfolio-info">
-              <h3>AB-Residence</h3>
-              <h3>Квартира 130 м²</h3>
-              <p>Комплектация / Авторский надзор</p>
-              <p>Илияса Есенберлина, 90</p>
-              <p>Усть-Каменогорск</p>
-            </div>
-          </article>
-
-          <article class="portfolio-card">
-            <div class="portfolio-image">
-              <img src="images/projects/maison-4a.jpg" alt="Maison 4A" />
-            </div>
-            <div class="portfolio-info">
-              <h3>Maison 4a</h3>
-              <h3>Коттедж 350 м²</h3>
-              <p>Soft Minimal / Концепция / Реализация</p>
-            </div>
-          </article>
-        </div>
-
-        <button class="slider-btn slider-btn-next" type="button" aria-label="Вперёд">›</button>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="documents section" id="documents">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">Документы</span>
-        <h2>Диплом и публичная оферта</h2>
-      </div>
-
-      <div class="documents-grid">
-        <article class="document-card reveal">
-          <h3>Диплом</h3>
-          <p>Документ об образовании</p>
-          <p>по специальности «Дизайн».</p>
-          <a class="btn btn-secondary btn-full" href="920723400396-20260318155936782.pdf" target="_blank" rel="noopener noreferrer">
-            Открыть диплом
-          </a>
-        </article>
-
-        <article class="document-card reveal">
-          <h3>Публичная оферта / договор</h3>
-          <p>Договор на разработку дизайн-проекта интерьера с авторским надзором.</p>
-          <a class="btn btn-secondary btn-full" href="public-offer-author-supervision.docx" target="_blank" rel="noopener noreferrer">
-            Открыть документ
-          </a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="media section" id="media">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">Материалы</span>
-        <h2>Видео и портфолио</h2>
-      </div>
-
-      <div class="media-grid">
-        <article class="media-card reveal">
-          <h3>Ознакомительное видео</h3>
-          <p>Краткая подача студии</p>
-          <p>подхода и формата работы.</p>
-          <a class="btn btn-secondary btn-full" href="#" target="_blank" rel="noopener noreferrer">
-            Смотреть видео
-          </a>
-        </article>
-
-        <article class="media-card reveal">
-          <h3>Портфолио</h3>
-          <p>Подборка реализованных и подготовленных</p>
-          <p>интерьерных решений.</p>
-          <a class="btn btn-secondary btn-full" href="#" target="_blank" rel="noopener noreferrer">
-            Открыть портфолио
-          </a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="faq section" id="faq">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">FAQ</span>
-        <h2>Частые вопросы</h2>
-      </div>
-
-      <div class="faq-box reveal">
-        <details>
-          <summary>Что входит в дизайн-проект?</summary>
-          <p>
-            Состав зависит от выбранного формата, но обычно включает концепцию, планировки,
-            визуализацию и рабочую документацию.
-          </p>
-        </details>
-
-        <details>
-          <summary>Сколько длится работа над проектом?</summary>
-          <p>
-            Срок зависит от площади, сложности и состава пакета. Точные сроки обсуждаются после
-            первичного общения по объекту.
-          </p>
-        </details>
-
-        <details>
-          <summary>Можно ли заказать только авторский надзор?</summary>
-          <p>
-            Да, формат подбирается под задачу. Можно обсудить отдельное сопровождение реализации
-            или комплексную работу.
-          </p>
-        </details>
-
-        <details>
-          <summary>Можно ли заказать мебель и освещение отдельно?</summary>
-          <p>
-            Да, возможен отдельный подбор мебели, комплектации и декоративного освещения.
-          </p>
-        </details>
-
-        <details>
-          <summary>Работаете ли вы с удалёнными объектами?</summary>
-          <p>
-            Да, формат сотрудничества можно адаптировать под город, объект и этапы реализации.
-          </p>
-        </details>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact section" id="contact">
-    <div class="container">
-      <div class="contact-card reveal">
-        <div class="contact-copy">
-          <span class="eyebrow">Контакты</span>
-          <h2>Обсудим ваш проект</h2>
-          <p>
-            Напишите в WhatsApp или Instagram, чтобы обсудить объект, сроки и подходящий формат работы.
-          </p>
-        </div>
-
-        <div class="contact-actions">
-          <a class="btn btn-primary btn-full"
-             href="https://wa.me/77015134441?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B7%D0%B0%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BE%D0%B2%D0%B0%D0%BB%20%D0%B2%D0%B0%D1%88%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0.%20%D0%A5%D0%BE%D1%82%D0%B5%D0%BB%20%D0%B1%D1%8B%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%0A%0A%D0%A2%D0%B8%D0%BF%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0%3A%20%0A%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C%3A%20%0A%D0%93%D0%BE%D1%80%D0%BE%D0%B4%3A%20%0A%D0%A1%D1%80%D0%BE%D0%BA%D0%B8%3A%20"
-             target="_blank" rel="noopener noreferrer">
-            Написать в WhatsApp
-          </a>
-          <a class="btn btn-secondary btn-full"
-             href="https://www.instagram.com/gulek_myrzagali/"
-             target="_blank" rel="noopener noreferrer">
-            Открыть Instagram
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <p>© <span id="currentYear"></span> Casa Interiors. Все права защищены.</p>
-  </div>
-</footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
