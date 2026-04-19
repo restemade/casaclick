@@ -326,7 +326,7 @@ textarea {
   border-radius: 18px;
   overflow: hidden;
   aspect-ratio: 0.92 / 1.14;
-  background: #0f1724;
+  background: transparent;
 }
 
 .portrait-image {
@@ -334,6 +334,9 @@ textarea {
   height: 100%;
   object-fit: cover;
   object-position: center top;
+  mix-blend-mode: normal;
+  filter: none;
+  opacity: 1;
 }
 
 .portrait-info {
@@ -418,9 +421,22 @@ textarea {
 }
 
 .services-grid-priced .service-card {
-  min-height: 205px;
+  min-height: 260px;
   display: flex;
   flex-direction: column;
+}
+
+.service-list {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.service-list li::marker {
+  color: var(--accent-soft);
 }
 
 .service-price {
