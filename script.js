@@ -67,6 +67,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     navAnchors.forEach((link) => link.addEventListener('click', closeMenu));
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 860) closeMenu();
+    });
   }
 
   anchors.forEach((anchor) => {
